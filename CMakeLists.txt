@@ -1,0 +1,10 @@
+
+cmake_minimum_required(VERSION 3.13)
+project(Dojo5)
+include_directories(/usr/src/gtest/include)
+include_directories(/usr/local/include/gmock/include)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Threads REQUIRED)
+add_executable(Dojo5 main.cpp SnakeTest.cpp Point.h Snake.cpp Snake.h Board.cpp Board.h Game.cpp Game.h)
+target_link_libraries(Dojo5 gtest gmock)
+target_link_libraries(Dojo5 Threads::Threads)

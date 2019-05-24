@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Dojo5.dir/main.cpp.o CMakeFiles/Dojo5.dir/SnakeTest.cpp.o CMakeFiles/Dojo5.dir/Snake.cpp.o CMakeFiles/Dojo5.dir/Board.cpp.o CMakeFiles/Dojo5.dir/Game.cpp.o  -o Dojo5 -lgtest -lgmock -lpthread 
